@@ -25,7 +25,7 @@ async function changeFiele () {
 
 async function sendNotify (text,desp) {
   const options ={
-    uri:  `https://sc.ftqq.com/${serverJ}.send`,
+    uri:  `https://push.xuthus.cc/send/${serverJ}.send`,
     form: { text, desp },
     json: true,
     method: 'POST'
