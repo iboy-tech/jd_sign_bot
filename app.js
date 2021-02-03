@@ -22,7 +22,7 @@ async function changeFiele () {
 
 async function sendNotify (text,desp) {
   const options ={
-    uri:  `https://push.xuthus.cc/send/${serverJ}.send`,
+    uri:  `https://qmsg.zendee.cn/send/${serverJ}`,
     form: { text, desp },
     json: true,
     method: 'POST'
